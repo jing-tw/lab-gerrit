@@ -8,4 +8,4 @@ fun_install_docker
 sudo docker run -d -p 8080:8080 -p 29418:29418 openfrontier/gerrit
 
 # Verification
-firefox http://127.0.0.1:8080
+firefox http://127.0.0.1:8080&
