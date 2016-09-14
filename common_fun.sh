@@ -5,7 +5,8 @@ function fun_setup_locale(){
     sudo locale-gen en_US en_US.UTF-8 zh_TW zh_TW.UTF-8
 
     # Step 2: Reconfigures packages after they have already been installed
-    sudo dpkg-reconfigure locales
+    # sudo dpkg-reconfigure locales
+    sudo update-locale
 }
 
 function fun_install_docker(){

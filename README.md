@@ -1,8 +1,16 @@
 # lab_gerrit
-## install on baremental 
-. ./04_install_gerrit.sh
+## Install Gerrit on host 
+```bash
+. ./normal_install.sh
+````
 
-## Install Gerrit on Vagrant VM
+## Vagrant way
+### Install Gerrit on VM using vagrant
+```bash
 . ./01_up.sh
-. ./03_vagrant_install.sh
+````
 
+### Clean up every thing
+```bash
+. ./02_clean.sh
+````

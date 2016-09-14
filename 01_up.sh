@@ -20,6 +20,7 @@ function timer()
 
 tmr=$(timer)
 vagrant up
+. ./03_vagrant_install.sh
 
 echo ===========================
 echo "Elapsed time:$(timer $tmr)"
